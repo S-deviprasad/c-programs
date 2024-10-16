@@ -1,0 +1,16 @@
+#include <stdio.h>
+int row[3][3]={{1,2,3},{1,2,3}},col[3][3]={{4,5,6},{4,5,6}},z[3][3],i,j;
+int main()
+{
+    for(i=0;i<3;i++)
+    {
+        for(j=0;j<3;j++)
+        {
+            z[i][j]=(row[i][j]+col[i][j])/2;
+            
+            
+        
+        printf("%d\t",z[i][j]);
+    }
+    printf("\n");}
+}
